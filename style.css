@@ -1,0 +1,304 @@
+body{
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.banner {
+    padding: 400px 0 350px;
+    background-color: #b0b0b0;
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-toggle-bar {
+    background-color: #ffb606;
+    width: 28px;
+    height: 25px;
+}
+
+.nav-toggle-bar div {
+    background-color: white;
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+}
+
+.banner-text-color {
+    color: #ffb606;
+}
+
+.banner-text h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 68px !important;
+    font-weight: 900;
+    color: white;
+}
+
+.welcome-text h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.book-button{
+    color: #131230;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: 12px 30px !important;
+    transition: all 0.5s;
+    background-color: #ffb606;
+}
+.book-button:hover{
+    background-color: white;
+    color: #ffb606;
+    border-color:#ffb606;
+}.serve-text h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.bg-serve{
+    background-image: url(./images/food-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+}
+@media (max-width:768px){
+    .bg-serve{
+        background-image: none;
+    }
+}
+.food-serve h5{
+    font-family: "Playfair Display", serif;
+    font-size: 23px !important;
+    font-weight: 900;
+    color: #131230;
+
+}
+.food-serve .img-trasition{
+    overflow: hidden;
+}
+.food-serve .img-trasition img{
+    transition: 0.5s;   
+}
+.food-serve .food-content{
+    padding: 30px;
+    transition: 0.5s;
+    background-color: rgb(249, 249, 255);
+}
+.food-serve .food-content .banner-text-color{
+    color: rgb(255, 182, 6);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.food-serve .food-content p{
+    transition: 0.5s;
+}
+.food-serve .serve-food-transition:hover img{
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+.food-serve .serve-food-transition:hover .food-content{
+    background-color: #ffb606;
+}
+.food-serve .serve-food-transition:hover .food-content .banner-text-color{
+    color:#131230;
+}
+
+.bg-res{
+    background-image: url(./images/reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.res-text h2{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 42px !important;
+    font-weight: 700;
+}
+.res-text h4{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.res-button{
+    background-color: #ffb606;
+    color: #131230;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 30px !important;
+    transition: all 0.5s;
+    display: inline-block;
+    border: none;
+}
+.res-button:hover{
+    background-color: transparent;
+    color: #ffb606;
+    border:#ffb606 1px solid;
+}
+.special-head h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.line1{
+    background: #131230;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    border: #131230;
+    border-style: solid;
+    border-radius: 8px;
+}
+.underline1{
+    font-family: "Playfair Display", serif;
+    font-size: 60px !important;
+    font-weight: 500;
+    color: #131230;
+    line-height: 1.2;
+}
+.deshes1 h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.deshes1 .banner-text-color1{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    color: #ffb606;
+}
+.deshes h1::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    width: 200px;
+    height: 1px;
+    background: #131230;
+}
+.deshes h1{
+    font-family: "Playfair Display", serif;
+    font-size: 50px !important;
+    font-weight: 700;
+    color: #131230;
+    line-height: 1.2;
+}
+.bg-img{
+    background-image: url(./images/testimonial-bg.jpg);
+    padding: 350px 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #131230;
+    margin-bottom: 20px;
+}
+.bg-img::after{
+    background-color: rgba(1, 7, 16, 0.444);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+}
+.customer-text h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.adam1{
+    background-color: #fff;
+}
+.adam1 h4{
+    color:#ffb606;
+    font-family: "Playfair Display", serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.card-body h4{
+    color:#131230;
+    font-family: "Playfair Display", serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+.book-form h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
+.bg-form{
+    background-image: url(./images/table-bg.jpg);
+    padding: 250px 0 220px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #131230;
+}
+.bg-form::after{
+    background-color: rgba(1, 7, 16, 0.444);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+}
+.input-icon {
+    position: relative;
+}
+.input-icon input {
+    padding-left: 40px;
+}
+.input-icon .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.input-box {
+    margin: 20px 0;
+}
+.footer-bg{
+    background-color: #131230;
+    padding: 50px 0;
+}
+.footer-bg h5{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    color:#ffb606;
+}
+.follow{
+    padding: 10px 0;
+    background-color: #0a0a1a;
+}
+.update-text h3{
+    font-family: "Playfair Display", serif;
+    font-size: 39px !important;
+    font-weight: 900;
+    color: #131230;
+}
